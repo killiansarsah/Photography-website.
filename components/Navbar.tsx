@@ -39,10 +39,11 @@ const Navbar: React.FC = () => {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-8 lg:px-12 h-20 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group" onClick={closeMenu}>
-          <div className="text-primary group-hover:scale-110 transition-transform duration-300">
-            <span className="material-symbols-outlined text-4xl">camera</span>
-          </div>
-          <h1 className="text-xl font-bold tracking-tight text-white">Lumina</h1>
+          <img 
+            src="/photos/pics/Logo_darkmode-removebg-preview.png" 
+            alt="Logo" 
+            className="h-40 w-auto group-hover:scale-110 transition-transform duration-300"
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -58,7 +59,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-4">
           <button 
             onClick={() => navigate('/contact')}
-            className="bg-primary hover:bg-primary/90 text-white text-sm font-bold px-5 py-2.5 rounded-lg transition-all duration-200 transform hover:scale-105 shadow-lg shadow-primary/20"
+            className="bg-primary hover:bg-primary/90 text-white text-sm font-bold px-5 py-2.5 rounded-lg transition-all duration-200 transform hover:scale-105 hover:shadow-2xl hover:shadow-primary/40 shadow-lg shadow-primary/20 animate-pulse-slow"
           >
             Book Now
           </button>
@@ -71,9 +72,20 @@ const Navbar: React.FC = () => {
             className="text-white hover:text-primary transition-colors p-2 focus:outline-none"
             aria-label="Toggle Menu"
           >
-            <span className="material-symbols-outlined text-3xl">
-              {isOpen ? 'close' : 'menu'}
-            </span>
+            {isOpen ? (
+              // Close (X) icon
+              <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            ) : (
+              // Hamburger icon
+              <svg className="w-8 h-8" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            )}
           </button>
         </div>
       </div>

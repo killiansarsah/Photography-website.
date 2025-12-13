@@ -12,7 +12,7 @@ export const ServicesSection: React.FC = () => {
           <img 
             alt="Photographer holding camera" 
             className="h-full w-full object-cover opacity-40 dark:opacity-30" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwYE3UVnmh6hr6LbQKNEuxzErcpwy8SOkwA20yjJMsvhtd8PAqXL3EoGyGyh673fYF_brgBJCb72JeXUYsD0dRwi2a0-irYD7lgYK4ZoDSDEdt0ZwMTbco3ZZrrC_qTgrVKTFhFudPZvEEYhx0sHkLeJD3WxKVrMvAiWChXQACRYEu1HLOfSCcej1gFBAiHd7pr8XNW8hE2lsuY9JOk2A8YzyWl7pWA5z-PQIMXvSjcuhjhkBgOGJdejFBLsJVVSMntGtJpUxAe5g"
+            src="/photos/51043010_565957363900901_7454095722745839401_n.jpg"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background-light dark:from-background-dark via-transparent to-transparent"></div>
         </div>
@@ -40,43 +40,43 @@ export const ServicesSection: React.FC = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Mini */}
-            <div className="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-surface-dark p-6 hover:border-primary/50 transition-all shadow-lg">
+            <div className="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-surface-dark p-6 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
               <div className="border-b border-slate-100 dark:border-white/10 pb-4">
                 <h3 className="text-xl font-bold">The Mini Session</h3>
-                <div className="mt-2 flex items-baseline gap-1"><span className="text-4xl font-black">$250</span></div>
+                <div className="mt-2 flex items-baseline gap-1"><span className="text-4xl font-black">GH₵ 700</span></div>
               </div>
-              <div className="flex flex-col gap-3 py-2 flex-1 text-sm text-slate-700 dark:text-slate-300">
+              <div className="flex flex-col gap-3 py-2 flex-1 text-sm text-slate- 700 dark:text-slate-300">
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> 1 Hour Duration</div>
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> 15 High-Res Photos</div>
               </div>
-              <button onClick={() => navigate('/contact')} className="w-full h-12 rounded-lg bg-slate-100 dark:bg-[#243b47] hover:bg-primary hover:text-white text-sm font-bold transition-all">Book Mini</button>
+              <button onClick={() => navigate('/contact')} className="w-full h-12 rounded-lg bg-slate-100 dark:bg-[#243b47] hover:bg-primary hover:text-white text-sm font-bold transition-all duration-300 transform hover:scale-105">Book Mini</button>
             </div>
             {/* Essential */}
-            <div className="relative group flex flex-col gap-4 rounded-xl border-2 border-primary bg-white dark:bg-surface-dark p-6 shadow-xl transform md:scale-105 z-10">
+            <div className="relative group flex flex-col gap-4 rounded-xl border-2 border-primary bg-white dark:bg-surface-dark p-6 shadow-xl transform md:scale-105 z-10 hover:shadow-2xl hover:shadow-primary/30 hover:-translate-y-2 transition-all duration-300">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Most Popular</div>
               <div className="border-b border-slate-100 dark:border-white/10 pb-4">
                 <h3 className="text-xl font-bold">The Essential</h3>
-                <div className="mt-2 flex items-baseline gap-1"><span className="text-4xl font-black">$600</span></div>
+                <div className="mt-2 flex items-baseline gap-1"><span className="text-4xl font-black">GH₵  2,000</span></div>
               </div>
-              <div className="flex flex-col gap-3 py-2 flex-1 text-sm text-slate-700 dark:text-slate-300">
+              <div className="flex flex-col gap-3 py-2 flex-1 text-sm text-slate- 700 dark:text-slate-300">
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> 3 Hours Duration</div>
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> 50 High-Res Photos</div>
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> 2 Locations</div>
               </div>
-              <button onClick={() => navigate('/contact')} className="w-full h-12 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all">Book Standard</button>
+              <button onClick={() => navigate('/contact')} className="w-full h-12 rounded-lg bg-primary hover:bg-primary/90 text-white text-sm font-bold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-primary/40">Book Standard</button>
             </div>
             {/* Full */}
-            <div className="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-surface-dark p-6 hover:border-primary/50 transition-all shadow-lg">
+            <div className="group flex flex-col gap-4 rounded-xl border border-slate-200 dark:border-border-dark bg-white dark:bg-surface-dark p-6 hover:border-primary/50 transition-all duration-300 shadow-lg hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
               <div className="border-b border-slate-100 dark:border-white/10 pb-4">
                 <h3 className="text-xl font-bold">The Full Experience</h3>
-                <div className="mt-2 flex items-baseline gap-1"><span className="text-4xl font-black">$1200</span></div>
+                <div className="mt-2 flex items-baseline gap-1"><span className="text-4xl font-black">GH₵ 4,000</span></div>
               </div>
-              <div className="flex flex-col gap-3 py-2 flex-1 text-sm text-slate-700 dark:text-slate-300">
+              <div className="flex flex-col gap-3 py-2 flex-1 text-sm text-slate- 700 dark:text-slate-300">
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> Full Day (8 Hours)</div>
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> Unlimited Photos</div>
                 <div className="flex items-center gap-3"><span className="material-symbols-outlined text-primary">check_circle</span> Drone Photography</div>
               </div>
-              <button onClick={() => navigate('/contact')} className="w-full h-12 rounded-lg bg-slate-100 dark:bg-[#243b47] hover:bg-primary hover:text-white text-sm font-bold transition-all">Book Premium</button>
+              <button onClick={() => navigate('/contact')} className="w-full h-12 rounded-lg bg-slate-100 dark:bg-[#243b47] hover:bg-primary hover:text-white text-sm font-bold transition-all duration-300 transform hover:scale-105">Book Premium</button>
             </div>
           </div>
         </div>
@@ -87,28 +87,28 @@ export const ServicesSection: React.FC = () => {
         <div className="max-w-[800px] mx-auto">
           <h2 className="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
           <div className="flex flex-col gap-4">
-            <details className="group bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark open:border-primary/50 transition-colors duration-300">
-              <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold select-none">
+            <details className="group bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark open:border-primary/50 transition-all duration-300 hover:shadow-lg">
+              <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold select-none hover:text-primary transition-colors">
                 <span>How long does it take to get my photos?</span>
-                <span className="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
               </summary>
               <div className="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm">
                 For standard sessions, our turnaround time is typically 2 weeks.
               </div>
             </details>
-            <details className="group bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark open:border-primary/50 transition-colors duration-300">
-              <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold select-none">
+            <details className="group bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark open:border-primary/50 transition-all duration-300 hover:shadow-lg">
+              <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold select-none hover:text-primary transition-colors">
                 <span>Do you charge for travel?</span>
-                <span className="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
               </summary>
               <div className="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm">
                 Travel within 20 miles of the city center is included.
               </div>
             </details>
-            <details className="group bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark open:border-primary/50 transition-colors duration-300">
-              <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold select-none">
+            <details className="group bg-white dark:bg-surface-dark rounded-lg border border-slate-200 dark:border-border-dark open:border-primary/50 transition-all duration-300 hover:shadow-lg">
+              <summary className="flex items-center justify-between p-5 cursor-pointer list-none font-bold select-none hover:text-primary transition-colors">
                 <span>What equipment do you use?</span>
-                <span className="material-symbols-outlined transition-transform group-open:rotate-180">expand_more</span>
+                <span className="material-symbols-outlined transition-transform duration-300 group-open:rotate-180">expand_more</span>
               </summary>
               <div className="px-5 pb-5 text-slate-600 dark:text-slate-400 text-sm">
                 We use top-of-the-line Canon R5 mirrorless cameras with a variety of L-series prime lenses to ensure the highest quality images.

@@ -83,7 +83,7 @@ const Carousel: React.FC<CarouselProps> = ({ items, autoPlayInterval = 5000 }) =
     >
       {/* Slides Container */}
       <div 
-        className="flex w-full h-full transition-transform duration-700 ease-out"
+        className="flex w-full h-full transition-transform duration- 700 ease-out"
         style={{ transform: `translateX(-${currentIndex * 100}%)` }}
       >
         {items.map((item, index) => (
@@ -96,7 +96,7 @@ const Carousel: React.FC<CarouselProps> = ({ items, autoPlayInterval = 5000 }) =
              <img 
                src={item.image} 
                alt={item.title}
-               className={`w-full h-full object-cover transition-opacity duration-500 ${imagesLoaded[index] ? 'opacity-100' : 'opacity-0'}`}
+               className={`w-full h-full object-contain transition-opacity duration-500 ${imagesLoaded[index] ? 'opacity-100' : 'opacity-0'}`}
                onLoad={() => handleImageLoad(index)}
              />
             

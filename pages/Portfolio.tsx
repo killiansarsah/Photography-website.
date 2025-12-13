@@ -9,119 +9,441 @@ interface PortfolioItem {
 
 // Expanded dataset with more items for each category
 const portfolioItems: PortfolioItem[] = [
-  // Existing Items
+  // Weddings
   { 
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuBezLZYig7sxhqQPQXm0sWA5OGq9wLjEpC-CKP4oVOYXfFBMIwOFF0edDDCL_RhsNu8msYwHpT3VHh4c4dUBbYZZP9cXNu_5Q8UxNeSUcXgtOHwt-ARaVdxFiGKU_fBtj47JtUe8_6h4O5G73T6k530cWyGrMyOZNqQisobJmSjrGyF4df_p6LV-jYdnNN7VKMAXaBHiMK-gy7tAPoZD7ZYgfQsXTRrjr692-3RJSW0W94KrjpjKUKayXFtfBT7DAji_QYd0LkwOKw", 
-    title: "Sunset Vows", 
+    src: "/photos/pics/wedding.jpg", 
+    title: "Wedding Day 1", 
     category: "Weddings", 
-    location: "Maui, HI" 
+    location: "Accra, Ghana" 
   },
   { 
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuATp-YUp2kXM0A_uCopT37-VGl_7X5cZm6kwJaC-hJNCzAex4tV1MGwrILC2H8zFYrG0DuS7vjr4DX_Rk6m6-qYcHsIxG3Lx8-mondWgAJCxwgliOKmyONCTbz7rf2mEsNEAcb7hpGNehjPzmUubr0zpSKMRkvurWQAvzhMTqRi__T3bbeElu0A1FfDqmCJ6CBsPSCFdQZJfUG_uFapaasm9q_ciWYRjas3uNloPW1gG_cwSqEOnpf75DO_byU4quGS67LI-AyEuLQ", 
-    title: "Mountain Solitude", 
-    category: "Landscapes", 
-    location: "Swiss Alps" 
+    src: "/photos/pics/wedding (2).jpg", 
+    title: "Wedding Day 2", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
   },
   { 
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2QrvG0SDxb8n-aJKJDifpjRVxHmcZFD03CpK5aMG0gSMjYBzSOQKrg0ESl0Q4S-uA3bSyXgg7l0e3-vqgole7JpYNPOyXob4a5HA4pBGzno-lsER8FC-DWsVQxI3-A2UAn8IyEUGlVmVyZvWLvX8xmBENKz0k5jXzl0yY8Jn48ga-fgwWKnWLr1eGcQ8B9yPfsPx5wmg7kv6c4KGwdrBQQ6xOhMMA8wYxiZjysIpsA-ARtzVsOU_wDqsVT4yyC00HAb9qa7CZsdo", 
+    src: "/photos/pics/wedding (3).jpg", 
+    title: "Wedding Day 3", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (4).jpg", 
+    title: "Wedding Day 4", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (5).jpg", 
+    title: "Wedding Day 5", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (6).jpg", 
+    title: "Wedding Day 6", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (7).jpg", 
+    title: "Wedding Day 7", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (8).jpg", 
+    title: "Wedding Day 8", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (9).jpg", 
+    title: "Wedding Day 9", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (10).jpg", 
+    title: "Wedding Day 10", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (11).jpg", 
+    title: "Wedding Day 11", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (12).jpg", 
+    title: "Wedding Day 12", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (13).jpg", 
+    title: "Wedding Day 13", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (14).jpg", 
+    title: "Wedding Day 14", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (15).jpg", 
+    title: "Wedding Day 15", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (16).jpg", 
+    title: "Wedding Day 16", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (17).jpg", 
+    title: "Wedding Day 17", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (18).jpg", 
+    title: "Wedding Day 18", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (19).jpg", 
+    title: "Wedding Day 19", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (20).jpg", 
+    title: "Wedding Day 20", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (21).jpg", 
+    title: "Wedding Day 21", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (22).jpg", 
+    title: "Wedding Day 22", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (23).jpg", 
+    title: "Wedding Day 23", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (24).jpg", 
+    title: "Wedding Day 24", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (25).jpg", 
+    title: "Wedding Day 25", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (26).jpg", 
+    title: "Wedding Day 26", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (27).jpg", 
+    title: "Wedding Day 27", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (28).jpg", 
+    title: "Wedding Day 28", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (29).jpg", 
+    title: "Wedding Day 29", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (30).jpg", 
+    title: "Wedding Day 30", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (31).jpg", 
+    title: "Wedding Day 31", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (32).jpg", 
+    title: "Wedding Day 32", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (33).jpg", 
+    title: "Wedding Day 33", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (34).jpg", 
+    title: "Wedding Day 34", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/wedding (35).jpg", 
+    title: "Wedding Day 35", 
+    category: "Weddings", 
+    location: "Accra, Ghana" 
+  },
+
+  // Portraits
+  { 
+    src: "/photos/21911498_342948329499477_7260796042436673536_n.jpg", 
     title: "Urban Gaze", 
     category: "Portraits", 
     location: "New York, NY" 
   },
   { 
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuB8IOJexSrpAJyTDmyqEINXOcGBhD5_YYWrs16Ux7fP3cD_FIyYOjoZiR9kDdyR9sq1UpfMeY-9KjcsU5mP9_wnZthbODdg4Eh7kI5cy6qDh6dnXirwJ5esdMA-h6Irp-iQGB4EKVO0EqRhQN8-TlEufgAWqX6MuE-ExKZPCbwUQQlMj87Ic4sXjsPNk0wS40zsgG18q24f0FOBUtkt-VzjuhChtp4tCKRqSMa3e5pZ7DQF04wSndelZser6gzjHQlS1rAFxp-tJ78", 
-    title: "First Dance", 
-    category: "Weddings", 
-    location: "Paris, France" 
-  },
-  { 
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAomrU6isqPEAFvhXLokHMKrEX0s0L2vG0wplIG-VVEJRu1ql5Hz7Yv_LzWIwV6E-zCUx1XJjS0Aco_ZR17NrSDudhjm8PJo_uwY69wag8N706oMuFJpjtA1P1_BIqDpS8G2wL_hMUpQDGh4y1NW-dZWV3AH_Ts6AO554BLS9Q8jSUwAGbp2bksF1IRZZWtCe_funbHWG3DJNRyZ4TF-pZpghXvTZaUaRLus2Lh00YWSdRcWZ7Vy0HNLPzkrQmuYJo8640Lq3KwCSw", 
-    title: "Valley Dawn", 
-    category: "Landscapes", 
-    location: "Tuscany, Italy" 
-  },
-  { 
-    src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDPMkUKh7AB_7f20zlGNDztRfwzJd0KgwBMQU8F2meVkLwf-lxTfwSHkUdy69aDad8uOwsnkeZN6QNLqvgOKdqg4LIBDprLjqIfEYph6jpIdMyO3ErOkpS7PFggF7q2_a2_LpScZVisMeAj_0TOHXo5o-fQi0--VtKtOTkMD5xeIIC3A3pHlynmtIxhbFt47zUByRQGbSy1xoHe7p4rEkfd32H0P3rzclDvUVKhsSSWLTNrEMLStpVe4PK_wTJQj62dphQZxLrxZrk", 
-    title: "Summer Haze", 
-    category: "Editorial", 
-    location: "Los Angeles, CA" 
-  },
-  
-  // New Weddings
-  { 
-    src: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&q=80&w=800", 
-    title: "Celebration", 
-    category: "Weddings", 
-    location: "Napa Valley, CA" 
-  },
-  { 
-    src: "https://images.unsplash.com/photo-1511285560982-1351cdeb9821?auto=format&fit=crop&q=80&w=800", 
-    title: "Together Forever", 
-    category: "Weddings", 
-    location: "Charleston, SC" 
-  },
-  { 
-    src: "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=2070&auto=format&fit=crop", 
-    title: "Greek Romance", 
-    category: "Weddings", 
-    location: "Santorini, Greece" 
-  },
-
-  // New Portraits
-  { 
-    src: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800", 
+    src: "/photos/22708802_1975209246091600_2761247213471399936_n.jpg", 
     title: "Raw Emotion", 
     category: "Portraits", 
     location: "Berlin, Germany" 
   },
   { 
-    src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=800", 
+    src: "/photos/26221746_871648483035118_2595693867936251904_n.jpg", 
     title: "Soft Light", 
     category: "Portraits", 
     location: "Kyoto, Japan" 
   },
   {
-    src: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800",
+    src: "/photos/28435906_1968749910106754_1599938415124545536_n.jpg",
     title: "Studio Gaze",
     category: "Portraits",
     location: "London, UK"
   },
+  {
+    src: "/photos/30855317_280619802476602_649281039332330 7008_n.jpg",
+    title: "Natural Beauty",
+    category: "Portraits",
+    location: "Los Angeles, CA"
+  },
+  {
+    src: "/photos/31338784_1980595781951794_732 7000824410800128_n.jpg",
+    title: "Candid Moment",
+    category: "Portraits",
+    location: "Miami, FL"
+  },
 
-  // New Editorial/Landscapes
+  // Landscapes
   { 
-    src: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=800", 
+    src: "/photos/christian-diaz-Tg_Du1s-WU0-unsplash.jpg", 
+    title: "Mountain Solitude", 
+    category: "Landscapes", 
+    location: "Swiss Alps" 
+  },
+  { 
+    src: "/photos/alekon-pictures-yj4kwA4h_Ms-unsplash.jpg", 
+    title: "Valley Dawn", 
+    category: "Landscapes", 
+    location: "Tuscany, Italy" 
+  },
+  { 
+    src: "/photos/antoine-demare-qstSVTp6OrM-unsplash.jpg", 
+    title: "Morning Mist", 
+    category: "Landscapes", 
+    location: "Yosemite, CA" 
+  },
+
+  // Editorial
+  { 
+    src: "/photos/34276116_1674494362603851_3102116073147727872_n.jpg", 
+    title: "Summer Haze", 
+    category: "Editorial", 
+    location: "Los Angeles, CA" 
+  },
+  { 
+    src: "/photos/38996680_1102071753275545_4943237666539869497_n.jpg", 
     title: "Wanderlust", 
     category: "Editorial", 
     location: "Marrakech, Morocco" 
   },
   { 
-    src: "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&q=80&w=800", 
-    title: "Morning Mist", 
-    category: "Landscapes", 
-    location: "Yosemite, CA" 
+    src: "/photos/39282870_746561709021150_5843516919132955014_n.jpg", 
+    title: "City Lights", 
+    category: "Editorial", 
+    location: "Tokyo, Japan" 
+  },
+  { 
+    src: "/photos/41744218_167142780823773_2798181375087016054_n.jpg", 
+    title: "Fashion Forward", 
+    category: "Editorial", 
+    location: "Milan, Italy" 
+  },
+  { 
+    src: "/photos/46257019_2001597776589512_8524442261915205129_n.jpg", 
+    title: "Street Style", 
+    category: "Editorial", 
+    location: "Paris, France" 
+  },
+  { 
+    src: "/photos/465125491_18452730619064431_7053234477597070851_n.jpg", 
+    title: "Modern Edge", 
+    category: "Editorial", 
+    location: "New York, NY" 
+  },
+  { 
+    src: "/photos/465197605_18453321346064431_3579026222851264923_n.jpg", 
+    title: "Timeless Elegance", 
+    category: "Editorial", 
+    location: "London, UK" 
+  },
+  { 
+    src: "/photos/499588724_1337618990672865_6106910375883547391_n.jpg", 
+    title: "Bold Vision", 
+    category: "Editorial", 
+    location: "Barcelona, Spain" 
+  },
+
+  // Videos
+  { 
+    src: "/photos/pics/vidme.mp4", 
+    title: "With Me - Video 1", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (2).mp4", 
+    title: "With Me - Video 2", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (3).mp4", 
+    title: "With Me - Video 3", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (4).mp4", 
+    title: "With Me - Video 4", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (5).mp4", 
+    title: "With Me - Video 5", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (6).mp4", 
+    title: "With Me - Video 6", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (7).mp4", 
+    title: "With Me - Video 7", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vidme (8).mp4", 
+    title: "With Me - Video 8", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/vid me.mp4", 
+    title: "With Me - Video 9", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/pics/H.mp4", 
+    title: "Highlights", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
   }
 ];
 
-const PortfolioItemCard: React.FC<{ item: PortfolioItem }> = ({ item }) => {
-  const [isLoaded, setIsLoaded] = useState(false);
 
+const PortfolioItemCard: React.FC<{ item: PortfolioItem; cardIndex: number; onClick: (src: string, index: number) => void }> = ({ item, cardIndex, onClick }) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const isVideo = item.src.endsWith('.mp4');
+  // For items in the 'All' section, category may be 'All' and not match any in portfolioItems
+  let categoryImages: string[] = [];
+  if (item.category && item.category !== 'All') {
+    categoryImages = portfolioItems.filter(p => p.category === item.category).map(p => p.src);
+  }
+  // If no category images, just use the item itself
+  if (categoryImages.length === 0) {
+    categoryImages = [item.src];
+  }
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prev) => (prev + 1) % categoryImages.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [categoryImages.length]);
+  const currentImage = categoryImages[(currentImageIndex + cardIndex) % categoryImages.length];
+  const isCurrentVideo = currentImage && currentImage.endsWith('.mp4');
   return (
-    <div className="masonry-item relative group overflow-hidden rounded-lg cursor-pointer mb-4 break-inside-avoid">
+    <div className="masonry-item relative group overflow-hidden rounded-lg cursor-pointer mb-4 break-inside-avoid transition-all duration-300 hover:shadow-2xl hover:shadow-black/50"
+      onClick={() => onClick(currentImage, cardIndex)}>
       {/* Skeleton Loading State */}
       {!isLoaded && (
         <div className="w-full h-[300px] bg-slate-200 dark:bg-surface-dark animate-pulse rounded-lg" />
       )}
-      
-      <img 
-        alt={item.title} 
-        className={`w-full h-auto object-cover transition-all duration-500 group-hover:scale-105 ${
-          isLoaded ? 'opacity-100' : 'opacity-0 absolute top-0 left-0 h-0'
-        }`}
-        src={item.src}
-        loading="lazy"
-        onLoad={() => setIsLoaded(true)}
-      />
-      
+      {isCurrentVideo ? (
+        <video 
+          className={`w-full h-auto object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-75 ${
+            isLoaded ? 'opacity-100' : 'opacity-0 absolute top-0 left-0 h-0'
+          }`}
+          src={currentImage}
+          autoPlay
+          loop
+          muted
+          playsInline
+          onLoadedData={() => setIsLoaded(true)}
+        />
+      ) : (
+        <img 
+          alt={item.title} 
+          className={`w-full h-auto object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-75 ${
+            isLoaded ? 'opacity-100' : 'opacity-0 absolute top-0 left-0 h-0'
+          }`}
+          src={currentImage}
+          loading="lazy"
+          onLoad={() => setIsLoaded(true)}
+        />
+      )}
       {/* Overlay Content (Only show when loaded) */}
       <div className={`absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6 ${!isLoaded ? 'hidden' : ''}`}>
         <p className="text-white font-bold text-lg translate-y-4 group-hover:translate-y-0 transition-transform duration-300">{item.title}</p>
@@ -136,16 +458,214 @@ const PortfolioItemCard: React.FC<{ item: PortfolioItem }> = ({ item }) => {
 export const PortfolioSection: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('All');
   const [visibleCount, setVisibleCount] = useState(6);
-  const categories = ['All', 'Weddings', 'Portraits', 'Landscapes', 'Editorial'];
+  const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [lightboxImages, setLightboxImages] = useState<string[]>([]);
+  const categories = ['All', 'Weddings', 'Portraits', 'Landscapes', 'Editorial', 'Videos'];
+
+  const heroImages = [
+    '/photos/pics/wedding.jpg',
+    '/photos/pics/wedding (2).jpg',
+    '/photos/pics/wedding (3).jpg',
+    '/photos/pics/wedding (4).jpg',
+    '/photos/pics/wedding (5).jpg',
+    '/photos/pics/wedding (6).jpg',
+    '/photos/pics/wedding (7).jpg',
+    '/photos/pics/wedding (8).jpg',
+    '/photos/pics/wedding (9).jpg',
+    '/photos/pics/wedding (10).jpg',
+    '/photos/pics/wedding (11).jpg',
+    '/photos/pics/wedding (12).jpg',
+    '/photos/pics/wedding (13).jpg',
+    '/photos/pics/wedding (14).jpg',
+    '/photos/pics/wedding (15).jpg',
+    '/photos/pics/wedding (16).jpg',
+    '/photos/pics/wedding (17).jpg',
+    '/photos/pics/wedding (18).jpg',
+    '/photos/pics/wedding (19).jpg',
+    '/photos/pics/wedding (20).jpg',
+    '/photos/pics/wedding (21).jpg',
+    '/photos/pics/wedding (22).jpg',
+    '/photos/pics/wedding (23).jpg',
+    '/photos/pics/wedding (24).jpg',
+    '/photos/pics/wedding (25).jpg',
+    '/photos/pics/wedding (26).jpg',
+    '/photos/pics/wedding (27).jpg',
+    '/photos/pics/wedding (28).jpg',
+    '/photos/pics/wedding (29).jpg',
+    '/photos/pics/wedding (30).jpg',
+    '/photos/pics/wedding (31).jpg',
+    '/photos/pics/wedding (32).jpg',
+    '/photos/pics/wedding (33).jpg',
+    '/photos/pics/wedding (34).jpg',
+    '/photos/pics/wedding (35).jpg',
+    '/photos/pics/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg',
+    '/photos/pics/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg',
+    '/photos/pics/About me pic1.jpg',
+    '/photos/pics/About me pic 2.jpg',
+    '/photos/pics/About me pic 3.jpg'
+  ];
+
+  // Rotate hero images
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentHeroIndex((prev) => (prev + 1) % heroImages.length);
+    }, 2500); // Change every 2.5 seconds
+    return () => clearInterval(interval);
+  }, []);
 
   // Reset visible count when category changes
   useEffect(() => {
     setVisibleCount(6);
   }, [activeCategory]);
 
-  const filteredItems = activeCategory === 'All' 
-    ? portfolioItems 
-    : portfolioItems.filter(item => item.category === activeCategory);
+
+  // For 'All', show all images (not videos) from /photos and /photos/pics
+  function getAllImageItems() {
+    // List of all image files in /photos
+    const photosImages = [
+      // Images in /photos (add more if needed)
+      "125315600_190947309252837_6356785943814263834_n.jpg",
+      "137244438_311260563646844_475495877256435118_n.jpg",
+      "138647075_254942869485641_4839333414294414833_n.jpg",
+      "139333885_416628026458645_214721068006800413_n.jpg",
+      "153732537_844126706136199_6717021926166769235_n.jpg",
+      "166327545_451401502755245_8158985191907428693_n.jpg",
+      "21911498_342948329499477_7260796042436673536_n.jpg",
+      "22708802_1975209246091600_2761247213471399936_n.jpg",
+      "26221746_871648483035118_2595693867936251904_n.jpg",
+      "28435906_1968749910106754_1599938415124545536_n.jpg",
+      "30855317_280619802476602_6492810393323307008_n.jpg",
+      "31338784_1980595781951794_7327000824410800128_n.jpg",
+      "34276116_1674494362603851_3102116073147727872_n.jpg",
+      "38996680_1102071753275545_4943237666539869497_n.jpg",
+      "39282870_746561709021150_5843516919132955014_n.jpg",
+      "41744218_167142780823773_2798181375087016054_n.jpg",
+      "46257019_2001597776589512_8524442261915205129_n.jpg",
+      "465125491_18452730619064431_7053234477597070851_n.jpg",
+      "465197605_18453321346064431_3579026222851264923_n.jpg",
+      "499588724_1337618990672865_6106910375883547391_n.jpg",
+      "50028331_316277239236058_1415490142616402361_n.jpg",
+      "504011555_18492942535064431_9051936999354468926_n.jpg",
+      "51043010_565957363900901_7454095722745839401_n.jpg",
+      "51300813_123368658723720_4695760490657864995_n.jpg",
+      "51402502_247382142867979_7191034204245445227_n.jpg",
+      "51974167_2030796656968145_8074698530360666912_n.jpg",
+      "52323916_2053753744694088_2224933505481456463_n.jpg",
+      "573142202_18521162413064431_7013930376258070492_n.jpg",
+      "574268950_18520435639064431_5613079751690295845_n.jpg",
+      "574860642_18521477698064431_6311990956506437484_n.jpg",
+      "581492933_18523745380064431_1405624945537746798_n.jpg",
+      "583348481_18523718413064431_7614656156371937518_n.jpg",
+      "589105279_18525889513064431_4208805799178778943_n.jpg",
+      "72475006_152770072602632_1931789919559214717_n.jpg",
+      "77041937_2745195528835584_6869950986665633897_n.jpg",
+      "alekon-pictures-yj4kwA4h_Ms-unsplash.jpg",
+      "antoine-demare-qstSVTp6OrM-unsplash.jpg",
+      "christian-diaz-Tg_Du1s-WU0-unsplash.jpg"
+    ];
+    // List of all image files in /photos/pics
+    const picsImages = [
+      "About me pic 2.jpg",
+      "About me pic 3.jpg",
+      "About me pic1.jpg",
+      "photomemoirgh_1561624860_2075382211164899695_2093432430.jpg",
+      "photomemoirgh_1561624860_2075382211173331408_2093432430.jpg",
+      "photomemoirgh_1561624860_2075382211181654694_2093432430.jpg",
+      "photomemoirgh_1570375656_2148789206576000474_2093432430.jpg",
+      "photomemoirgh_1575124440_2188624894246712877_2093432430.jpg",
+      "photomemoirgh_1575124440_2188624894263432094_2093432430.jpg",
+      "photomemoirgh_1593950080_2346545806752168484_2093432430.jpg",
+      "photomemoirgh_1603186995_2424030670354895176_2093432430.jpg",
+      "photomemoirgh_1605515428_2443562983346175449_2093432430.jpg",
+      "photomemoirgh_1614550697_2519356311198761329_2093432430.jpg",
+      "photomemoirgh_1723028590_3429334832751787330_2093432430.jpg",
+      "photomemoirgh_1723648007_3434530878071163825_2093432430.jpg",
+      "photomemoirgh_1723648007_3434530878079630106_2093432430.jpg",
+      "photomemoirgh_1730704758_3493727192197109176_2093432430.jpg",
+      "photomemoirgh_1730704758_3493727192197144027_2093432430.jpg",
+      "photomemoirgh_1730704758_3493727192197295561_2093432430.jpg",
+      "photomemoirgh_1749302690_3649737954345764499_2093432430.jpg",
+      "photomemoirgh_1749302690_3649737954345838925_2093432430.jpg",
+      "photomemoirgh_1749302690_3649737954345863493_2093432430.jpg",
+      "photomemoirgh_1749302690_3649737954354043681_2093432430.jpg",
+      "photomemoirgh_1749302690_3649737954354120729_2093432430.jpg",
+      "photomemoirgh_1749302690_3649737954656140106_2093432430.jpg",
+      "photomemoirgh_1762155452_3757554740180323494_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789575425800_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789583790607_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789592151735_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789592199585_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789600544109_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789600555289_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789600576261_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789608926839_2093432430.jpg",
+      "photomemoirgh_1762180015_3757760789860583480_2093432430.jpg",
+      "photomemoirgh_1762247148_3758323939823598739_2093432430.jpg",
+      "photomemoirgh_1762503404_3760473571819285594_2093432430.jpg",
+      "photomemoirgh_1762503404_3760473571819300748_2093432430.jpg",
+      "photomemoirgh_1762503404_3760473571827655861_2093432430.jpg",
+      "photomemoirgh_1762503404_3760473572129645607_2093432430.jpg",
+      "photomemoirgh_1763095710_3765442194493146751_2093432430.jpg",
+      "photomemoirgh_1763095710_3765442194518328999_2093432430.jpg",
+      "photomemoirgh_1763364900_3767700322882446502_2093432430.jpg",
+      "photomemoirgh_1763382545_3767848344400438982_2093432430.jpg",
+      "photomemoirgh_1764662596_3778586189721254146_2093432430.jpg",
+      "wedding (10).jpg",
+      "wedding (11).jpg",
+      "wedding (12).jpg",
+      "wedding (13).jpg",
+      "wedding (14).jpg",
+      "wedding (15).jpg",
+      "wedding (16).jpg",
+      "wedding (17).jpg",
+      "wedding (18).jpg",
+      "wedding (19).jpg",
+      "wedding (2).jpg",
+      "wedding (20).jpg",
+      "wedding (21).jpg",
+      "wedding (22).jpg",
+      "wedding (23).jpg",
+      "wedding (24).jpg",
+      "wedding (25).jpg",
+      "wedding (26).jpg",
+      "wedding (27).jpg",
+      "wedding (28).jpg",
+      "wedding (29).jpg",
+      "wedding (3).jpg",
+      "wedding (30).jpg",
+      "wedding (31).jpg",
+      "wedding (32).jpg",
+      "wedding (33).jpg",
+      "wedding (34).jpg",
+      "wedding (35).jpg",
+      "wedding (4).jpg",
+      "wedding (5).jpg",
+      "wedding (6).jpg",
+      "wedding (7).jpg",
+      "wedding (8).jpg",
+      "wedding (9).jpg",
+      "wedding.jpg"
+    ];
+    // Combine and return as PortfolioItem[]
+    return [
+      ...photosImages.map(f => ({ src: `/photos/${f}`, title: f, category: 'All', location: '' })),
+      ...picsImages.map(f => ({ src: `/photos/pics/${f}`, title: f, category: 'All', location: '' }))
+    ];
+  }
+
+  const filteredItems = activeCategory === 'All'
+    ? getAllImageItems()
+    : portfolioItems.filter(item => item.category === activeCategory && !item.src.endsWith('.mp4'));
 
   const displayedItems = filteredItems.slice(0, visibleCount);
   const hasMore = visibleCount < filteredItems.length;
@@ -154,16 +674,41 @@ export const PortfolioSection: React.FC = () => {
     setVisibleCount(prev => prev + 6);
   };
 
+  // Lightbox handlers
+  const handleImageClick = (src: string, cardIndex: number) => {
+    // Find all images in the current filteredItems
+    const images = displayedItems.map(item => item.src);
+    const index = images.indexOf(src);
+    setLightboxImages(images);
+    setLightboxIndex(index >= 0 ? index : 0);
+    setLightboxOpen(true);
+  };
+  const handleLightboxClose = () => setLightboxOpen(false);
+  const handlePrev = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    setLightboxIndex((prev) => (prev - 1 + lightboxImages.length) % lightboxImages.length);
+  };
+  const handleNext = (e?: React.MouseEvent) => {
+    if (e) e.stopPropagation();
+    setLightboxIndex((prev) => (prev + 1) % lightboxImages.length);
+  };
+
   return (
     <div className="relative flex flex-col bg-background-light dark:bg-background-dark text-slate-900 dark:text-white">
-      {/* Hero Section with Simple Loading State */}
+      {/* Hero Section with Rotating Images */}
       <div className="relative w-full h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden bg-slate-900">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 animate-[fadeIn_1s_ease-in_forwards]" 
-          style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBngOSjiHDeYCO2NFvW4nuEc_UyMxTPjzV20iWHZ12RTN4krcq54wVEGxsWKq0-SKgtpj_KZY6SmUKWIaRTgVG3NDakBc30J69lQEP-dDfkqbMSeammZqb6eWEA4Cipn5AJBw9qSdnoFdnAyd3geV3Z6Ro_GOlbsWFJtXMahGcA-MLjr2Mu7ixJqC2lbnIu4KMrGsWv80y9RhRQP_GvGx8eanNuE1qDyWDP5WqQCPIqqeBZOXGe1FmPudxwkEsRuLtNb7r3i640o7s")'}}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-background-dark/60 via-background-dark/40 to-background-dark/90"></div>
-        </div>
+        {heroImages.map((image, index) => (
+          <div 
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-1000 ${index === currentHeroIndex ? 'opacity-100' : 'opacity-0'}`}
+          >
+            <div 
+              className="absolute inset-0 bg-cover bg-no-repeat"
+              style={{backgroundImage: `url("${image}")`, backgroundPosition: 'center 30%'}}
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-background-dark/60 via-background-dark/40 to-background-dark/90"></div>
+          </div>
+        ))}
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center gap-6 mt-12">
           <h1 className="text-white text-5xl md:text-6xl lg:text-7xl font-black leading-tight tracking-tight drop-shadow-lg">
             Capturing Life's Moments
@@ -187,10 +732,10 @@ export const PortfolioSection: React.FC = () => {
                 <button
                   key={category}
                   onClick={() => setActiveCategory(category)}
-                  className={`flex h-10 items-center justify-center px-6 rounded-full text-sm font-bold transition-all ${
+                  className={`flex h-10 items-center justify-center px-6 rounded-full text-sm font-bold transition-all duration-300 transform hover:-translate-y-1 ${
                     activeCategory === category
                       ? 'bg-primary text-white shadow-lg shadow-primary/25 scale-105'
-                      : 'bg-slate-200 dark:bg-[#243b47] text-slate-700 dark:text-slate-200 hover:bg-slate-300 dark:hover:bg-[#2f4a59] hover:scale-105'
+                      : 'bg-slate-200 dark:bg-[#243b47] text-slate- 700 dark:text-slate-200 hover:bg-slate-300 dark:hover:bg-[#2f4a59] hover:scale-105 hover:shadow-md'
                   }`}
                 >
                   {category}
@@ -201,15 +746,25 @@ export const PortfolioSection: React.FC = () => {
 
           <div className="masonry-grid w-full animate-fade-in">
             {displayedItems.map((item, index) => (
-              <PortfolioItemCard key={`${item.title}-${index}`} item={item} />
+              <PortfolioItemCard key={`${item.title}-${index}`} item={item} cardIndex={index} onClick={handleImageClick} />
             ))}
           </div>
+
+          {/* Lightbox Modal */}
+          {lightboxOpen && (
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm" onClick={handleLightboxClose}>
+              <button className="absolute top-6 right-8 text-white text-4xl font-bold z-50" onClick={handleLightboxClose} aria-label="Close">&times;</button>
+              <button className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-5xl z-50 px-2" onClick={handlePrev} aria-label="Previous">&#8592;</button>
+              <img src={lightboxImages[lightboxIndex]} alt="Enlarged" className="max-h-[80vh] max-w-[90vw] rounded-xl shadow-2xl border-4 border-white/10 object-contain" onClick={e => e.stopPropagation()} />
+              <button className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-5xl z-50 px-2" onClick={handleNext} aria-label="Next">&#8594;</button>
+            </div>
+          )}
 
           {hasMore && (
             <div className="flex justify-center mt-12 mb-20">
               <button 
                 onClick={handleLoadMore}
-                className="group flex items-center gap-2 px-8 py-3 rounded-full border border-slate-300 dark:border-slate-700 hover:border-primary text-slate-700 dark:text-slate-300 hover:text-primary transition-all"
+                className="group flex items-center gap-2 px-8 py-3 rounded-full border border-slate-300 dark:border-slate- 700 hover:border-primary text-slate- 700 dark:text-slate-300 hover:text-primary transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
               >
                 <span className="font-bold">Load More</span>
                 <span className="material-symbols-outlined transition-transform group-hover:translate-y-1">expand_more</span>

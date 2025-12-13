@@ -11,54 +11,251 @@ const Home: React.FC = () => {
   const [currentHeroIndex, setCurrentHeroIndex] = useState(0);
   const [isHeroLoaded, setIsHeroLoaded] = useState(false);
 
-  const heroImages = [
-    "https://lh3.googleusercontent.com/aida-public/AB6AXuDMqMKp9y_DdNgG1g0RXbGpxMLMo5KYyBySRSXwCEz0DIvtSpIDMJWYiFR3OG6xnR4gIRp5j3IYxMxydxszrx78zVP0XWM3TtLWfghH061rwRxmdQi76jFTJdm2c5_bzahLLrJGaAQBhg4_Y2JKdy3NGcZVW86GUayFXOPMALU34tG5OH2FRj6KAouDiiBZw9FEgDCVuxTQsvMRd5RRJp2FonBxb2vrWm5_SeF_Q-EJiU4D0SARozPmPZhV2cwKX4kTZWmJhoyeVVU",
-    "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1511285560982-1351cdeb9821?auto=format&fit=crop&q=80&w=2000",
-    "https://images.unsplash.com/photo-1552168324-d612d77725e3?auto=format&fit=crop&q=80&w=2000"
-  ];
-
-  // Preload first hero image
+  // Preload video
   useEffect(() => {
-    const img = new Image();
-    img.src = heroImages[0];
-    img.onload = () => {
-      setIsHeroLoaded(true);
-    };
-    
-    // Fallback if load fails or takes too long (optional safety)
-    const timeout = setTimeout(() => setIsHeroLoaded(true), 3000);
-
-    const interval = setInterval(() => {
-      setCurrentHeroIndex((prev) => (prev + 1) % heroImages.length);
-    }, 5000);
-    
-    return () => {
-      clearInterval(interval);
-      clearTimeout(timeout);
-    };
+    setIsHeroLoaded(true);
   }, []);
 
   const featuredItems: CarouselItem[] = [
     {
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBezLZYig7sxhqQPQXm0sWA5OGq9wLjEpC-CKP4oVOYXfFBMIwOFF0edDDCL_RhsNu8msYwHpT3VHh4c4dUBbYZZP9cXNu_5Q8UxNeSUcXgtOHwt-ARaVdxFiGKU_fBtj47JtUe8_6h4O5G73T6k530cWyGrMyOZNqQisobJmSjrGyF4df_p6LV-jYdnNN7VKMAXaBHiMK-gy7tAPoZD7ZYgfQsXTRrjr692-3RJSW0W94KrjpjKUKayXFtfBT7DAji_QYd0LkwOKw",
-      title: "Sunset Vows",
-      description: "A breathtaking golden hour moment captured in Maui, highlighting the raw emotion of love against nature's backdrop."
+      image: "/photos/pics/wedding.jpg",
+      title: "Wedding Celebration 1",
+      description: "Beautiful moments captured at a wedding ceremony in Accra, Ghana."
     },
     {
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuATp-YUp2kXM0A_uCopT37-VGl_7X5cZm6kwJaC-hJNCzAex4tV1MGwrILC2H8zFYrG0DuS7vjr4DX_Rk6m6-qYcHsIxG3Lx8-mondWgAJCxwgliOKmyONCTbz7rf2mEsNEAcb7hpGNehjPzmUubr0zpSKMRkvurWQAvzhMTqRi__T3bbeElu0A1FfDqmCJ6CBsPSCFdQZJfUG_uFapaasm9q_ciWYRjas3uNloPW1gG_cwSqEOnpf75DO_byU4quGS67LI-AyEuLQ",
-      title: "Mountain Solitude",
-      description: "Exploring the serene silence of the Swiss Alps. High contrast black and white photography."
+      image: "/photos/pics/wedding (2).jpg",
+      title: "Wedding Celebration 2",
+      description: "Timeless memories from a special day in Accra, Ghana."
     },
     {
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB8IOJexSrpAJyTDmyqEINXOcGBhD5_YYWrs16Ux7fP3cD_FIyYOjoZiR9kDdyR9sq1UpfMeY-9KjcsU5mP9_wnZthbODdg4Eh7kI5cy6qDh6dnXirwJ5esdMA-h6Irp-iQGB4EKVO0EqRhQN8-TlEufgAWqX6MuE-ExKZPCbwUQQlMj87Ic4sXjsPNk0wS40zsgG18q24f0FOBUtkt-VzjuhChtp4tCKRqSMa3e5pZ7DQF04wSndelZser6gzjHQlS1rAFxp-tJ78",
-      title: "Parisian Romance",
-      description: "The city of lights serves as the perfect stage for this elegant first dance."
+      image: "/photos/pics/wedding (3).jpg",
+      title: "Wedding Celebration 3",
+      description: "Love and joy captured at a Ghanaian wedding."
     },
     {
-      image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDPMkUKh7AB_7f20zlGNDztRfwzJd0KgwBMQU8F2meVkLwf-lxTfwSHkUdy69aDad8uOwsnkeZN6QNLqvgOKdqg4LIBDprLjqIfEYph6jpIdMyO3ErOkpS7PFggF7q2_a2_LpScZVisMeAj_0TOHXo5o-fQi0--VtKtOTkMD5xeIIC3A3pHlynmtIxhbFt47zUByRQGbSy1xoHe7p4rEkfd32H0P3rzclDvUVKhsSSWLTNrEMLStpVe4PK_wTJQj62dphQZxLrxZrk",
-      title: "Urban Editorial",
-      description: "Fashion meets street style in the heart of downtown Los Angeles."
+      image: "/photos/pics/wedding (4).jpg",
+      title: "Wedding Celebration 4",
+      description: "Elegant wedding photography in Accra, Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (5).jpg",
+      title: "Wedding Celebration 5",
+      description: "A day to remember, captured beautifully in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (6).jpg",
+      title: "Wedding Celebration 6",
+      description: "Celebrating love and unity in Accra."
+    },
+    {
+      image: "/photos/pics/wedding (7).jpg",
+      title: "Wedding Celebration 7",
+      description: "Joyful moments from a Ghanaian wedding ceremony."
+    },
+    {
+      image: "/photos/pics/wedding (8).jpg",
+      title: "Wedding Celebration 8",
+      description: "Capturing the essence of a perfect wedding day."
+    },
+    {
+      image: "/photos/pics/wedding (9).jpg",
+      title: "Wedding Celebration 9",
+      description: "Beautiful photography from a wedding in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (10).jpg",
+      title: "Wedding Celebration 10",
+      description: "Love stories told through stunning imagery."
+    },
+    {
+      image: "/photos/pics/wedding (11).jpg",
+      title: "Wedding Celebration 11",
+      description: "Memorable moments from an Accra wedding."
+    },
+    {
+      image: "/photos/pics/wedding (12).jpg",
+      title: "Wedding Celebration 12",
+      description: "Celebrating life's precious moments in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (13).jpg",
+      title: "Wedding Celebration 13",
+      description: "Elegant wedding photography in Accra."
+    },
+    {
+      image: "/photos/pics/wedding (14).jpg",
+      title: "Wedding Celebration 14",
+      description: "Capturing the beauty of love in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (15).jpg",
+      title: "Wedding Celebration 15",
+      description: "Timeless wedding memories from Accra."
+    },
+    {
+      image: "/photos/pics/wedding (16).jpg",
+      title: "Wedding Celebration 16",
+      description: "Joyful celebration captured beautifully."
+    },
+    {
+      image: "/photos/pics/wedding (17).jpg",
+      title: "Wedding Celebration 17",
+      description: "A perfect wedding day in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (18).jpg",
+      title: "Wedding Celebration 18",
+      description: "Love and happiness in every frame."
+    },
+    {
+      image: "/photos/pics/wedding (19).jpg",
+      title: "Wedding Celebration 19",
+      description: "Beautiful wedding photography from Accra."
+    },
+    {
+      image: "/photos/pics/wedding (20).jpg",
+      title: "Wedding Celebration 20",
+      description: "Capturing the magic of a Ghanaian wedding."
+    },
+    {
+      image: "/photos/pics/wedding (21).jpg",
+      title: "Wedding Celebration 21",
+      description: "Memorable moments from a special day."
+    },
+    {
+      image: "/photos/pics/wedding (22).jpg",
+      title: "Wedding Celebration 22",
+      description: "Stunning wedding imagery from Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (23).jpg",
+      title: "Wedding Celebration 23",
+      description: "Celebrating love in Accra, Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (24).jpg",
+      title: "Wedding Celebration 24",
+      description: "Beautiful moments from a wedding ceremony."
+    },
+    {
+      image: "/photos/pics/wedding (25).jpg",
+      title: "Wedding Celebration 25",
+      description: "Love stories captured through our lens."
+    },
+    {
+      image: "/photos/pics/wedding (26).jpg",
+      title: "Wedding Celebration 26",
+      description: "Joyful wedding photography in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (27).jpg",
+      title: "Wedding Celebration 27",
+      description: "Timeless memories from an Accra wedding."
+    },
+    {
+      image: "/photos/pics/wedding (28).jpg",
+      title: "Wedding Celebration 28",
+      description: "Capturing the essence of a perfect day."
+    },
+    {
+      image: "/photos/pics/wedding (29).jpg",
+      title: "Wedding Celebration 29",
+      description: "Elegant wedding moments in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (30).jpg",
+      title: "Wedding Celebration 30",
+      description: "Beautiful celebration captured in Accra."
+    },
+    {
+      image: "/photos/pics/wedding (31).jpg",
+      title: "Wedding Celebration 31",
+      description: "Love and joy from a Ghanaian wedding."
+    },
+    {
+      image: "/photos/pics/wedding (32).jpg",
+      title: "Wedding Celebration 32",
+      description: "Stunning photography from a wedding in Ghana."
+    },
+    {
+      image: "/photos/pics/wedding (33).jpg",
+      title: "Wedding Celebration 33",
+      description: "Capturing precious moments in Accra."
+    },
+    {
+      image: "/photos/pics/wedding (34).jpg",
+      title: "Wedding Celebration 34",
+      description: "Beautiful wedding day captured perfectly."
+    },
+    {
+      image: "/photos/pics/wedding (35).jpg",
+      title: "Wedding Celebration 35",
+      description: "Memorable moments from a Ghanaian celebration."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg",
+      title: "Portfolio Highlight 1",
+      description: "Stunning photography from our collection."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg",
+      title: "Portfolio Highlight 2",
+      description: "Professional photography in Ghana."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg",
+      title: "Portfolio Highlight 3",
+      description: "Capturing life's beautiful moments."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg",
+      title: "Portfolio Highlight 4",
+      description: "Creative photography from Accra."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg",
+      title: "Portfolio Highlight 5",
+      description: "Stunning visuals from our portfolio."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg",
+      title: "Portfolio Highlight 6",
+      description: "Professional photography in Ghana."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg",
+      title: "Portfolio Highlight 7",
+      description: "Capturing memorable moments beautifully."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg",
+      title: "Portfolio Highlight 8",
+      description: "Beautiful photography from our collection."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg",
+      title: "Portfolio Highlight 9",
+      description: "Creative imagery from Accra, Ghana."
+    },
+    {
+      image: "/photos/pics/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg",
+      title: "Portfolio Highlight 10",
+      description: "Stunning photography capturing Ghana's beauty."
+    },
+    {
+      image: "/photos/pics/About me pic1.jpg",
+      title: "Behind the Lens",
+      description: "Meet the photographer behind the camera."
+    },
+    {
+      image: "/photos/pics/About me pic 2.jpg",
+      title: "Our Story",
+      description: "Passionate about capturing life's moments."
+    },
+    {
+      image: "/photos/pics/About me pic 3.jpg",
+      title: "Our Vision",
+      description: "Creating timeless memories through photography."
     }
   ];
 
@@ -74,18 +271,21 @@ const Home: React.FC = () => {
         )}
 
         <div className="absolute inset-0 z-0">
-          {heroImages.map((img, index) => (
-            <div 
-              key={index}
-              className={`absolute inset-0 bg-cover bg-center bg-no-repeat bg-fixed transition-opacity duration-1000 ease-in-out ${index === currentHeroIndex && isHeroLoaded ? 'opacity-100' : 'opacity-0'}`}
-              style={{backgroundImage: `url('${img}')`}}
-            />
-          ))}
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="w-full h-full object-cover"
+            onLoadedData={() => setIsHeroLoaded(true)}
+          >
+            <source src="/photos/real%20vid.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-gradient-to-b from-[#111c21]/70 via-[#111c21]/50 to-[#111c21]"></div>
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">
           <span className="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-xs font-semibold tracking-wider uppercase mb-6 text-primary backdrop-blur-sm animate-fade-in-up">
-            NYC Based Photography
+            Ghana Based Photography
           </span>
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white mb-6 leading-tight drop-shadow-xl">
             Capturing Life's <br className="hidden md:block"/>
@@ -97,20 +297,21 @@ const Home: React.FC = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <button 
               onClick={() => navigate('/portfolio')} 
-              className="w-full sm:w-auto px-8 py-3.5 bg-primary text-white font-bold rounded-lg hover:bg-primary/90 transition-all flex items-center justify-center gap-2 shadow-lg shadow-primary/25"
+              className="w-full sm:w-auto px-8 py-3.5 bg-primary text-white font-bold rounded-lg hover:bg-primary/90 transition-all duration-300 flex items-center justify-center gap-2 shadow-lg shadow-primary/25 hover:shadow-2xl hover:shadow-primary/40 transform hover:scale-105 hover:-translate-y-1"
             >
               View Portfolio
               <span className="material-symbols-outlined text-sm">arrow_forward</span>
             </button>
             <button 
               onClick={() => navigate('/services')} 
-              className="w-full sm:w-auto px-8 py-3.5 bg-white/5 border border-white/10 text-white font-bold rounded-lg hover:bg-white/10 transition-all backdrop-blur-sm"
+              className="w-full sm:w-auto px-8 py-3.5 bg-white/5 border border-white/10 text-white font-bold rounded-lg hover:bg-white/10 transition-all duration-300 backdrop-blur-sm transform hover:scale-105 hover:-translate-y-1 hover:border-primary/50"
             >
               Our Services
             </button>
           </div>
         </div>
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/50">
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-white/50 cursor-pointer hover:text-white transition-colors"
+             onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
           <span className="material-symbols-outlined text-3xl">keyboard_arrow_down</span>
         </div>
       </header>
@@ -125,7 +326,7 @@ const Home: React.FC = () => {
               Swipe through some of our most memorable shots from recent international assignments.
             </p>
           </div>
-          <Carousel items={featuredItems} autoPlayInterval={6000} />
+          <Carousel items={featuredItems} autoPlayInterval={2500} />
         </div>
       </section>
 
