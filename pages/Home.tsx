@@ -18,242 +18,242 @@ const Home: React.FC = () => {
 
   const featuredItems: CarouselItem[] = [
     {
-      image: "/photos/pics/wedding.jpg",
+      image: "/photos/wedding.jpg",
       title: "Wedding Celebration 1",
       description: "Beautiful moments captured at a wedding ceremony in Accra, Ghana."
     },
     {
-      image: "/photos/pics/wedding (2).jpg",
+      image: "/photos/wedding (2).jpg",
       title: "Wedding Celebration 2",
       description: "Timeless memories from a special day in Accra, Ghana."
     },
     {
-      image: "/photos/pics/wedding (3).jpg",
+      image: "/photos/wedding (3).jpg",
       title: "Wedding Celebration 3",
       description: "Love and joy captured at a Ghanaian wedding."
     },
     {
-      image: "/photos/pics/wedding (4).jpg",
+      image: "/photos/wedding (4).jpg",
       title: "Wedding Celebration 4",
       description: "Elegant wedding photography in Accra, Ghana."
     },
     {
-      image: "/photos/pics/wedding (5).jpg",
+      image: "/photos/wedding (5).jpg",
       title: "Wedding Celebration 5",
       description: "A day to remember, captured beautifully in Ghana."
     },
     {
-      image: "/photos/pics/wedding (6).jpg",
+      image: "/photos/wedding (6).jpg",
       title: "Wedding Celebration 6",
       description: "Celebrating love and unity in Accra."
     },
     {
-      image: "/photos/pics/wedding (7).jpg",
+      image: "/photos/wedding (7).jpg",
       title: "Wedding Celebration 7",
       description: "Joyful moments from a Ghanaian wedding ceremony."
     },
     {
-      image: "/photos/pics/wedding (8).jpg",
+      image: "/photos/wedding (8).jpg",
       title: "Wedding Celebration 8",
       description: "Capturing the essence of a perfect wedding day."
     },
     {
-      image: "/photos/pics/wedding (9).jpg",
+      image: "/photos/wedding (9).jpg",
       title: "Wedding Celebration 9",
       description: "Beautiful photography from a wedding in Ghana."
     },
     {
-      image: "/photos/pics/wedding (10).jpg",
+      image: "/photos/wedding (10).jpg",
       title: "Wedding Celebration 10",
       description: "Love stories told through stunning imagery."
     },
     {
-      image: "/photos/pics/wedding (11).jpg",
+      image: "/photos/wedding (11).jpg",
       title: "Wedding Celebration 11",
       description: "Memorable moments from an Accra wedding."
     },
     {
-      image: "/photos/pics/wedding (12).jpg",
+      image: "/photos/wedding (12).jpg",
       title: "Wedding Celebration 12",
       description: "Celebrating life's precious moments in Ghana."
     },
     {
-      image: "/photos/pics/wedding (13).jpg",
+      image: "/photos/wedding (13).jpg",
       title: "Wedding Celebration 13",
       description: "Elegant wedding photography in Accra."
     },
     {
-      image: "/photos/pics/wedding (14).jpg",
+      image: "/photos/wedding (14).jpg",
       title: "Wedding Celebration 14",
       description: "Capturing the beauty of love in Ghana."
     },
     {
-      image: "/photos/pics/wedding (15).jpg",
+      image: "/photos/wedding (15).jpg",
       title: "Wedding Celebration 15",
       description: "Timeless wedding memories from Accra."
     },
     {
-      image: "/photos/pics/wedding (16).jpg",
+      image: "/photos/wedding (16).jpg",
       title: "Wedding Celebration 16",
       description: "Joyful celebration captured beautifully."
     },
     {
-      image: "/photos/pics/wedding (17).jpg",
+      image: "/photos/wedding (17).jpg",
       title: "Wedding Celebration 17",
       description: "A perfect wedding day in Ghana."
     },
     {
-      image: "/photos/pics/wedding (18).jpg",
+      image: "/photos/wedding (18).jpg",
       title: "Wedding Celebration 18",
       description: "Love and happiness in every frame."
     },
     {
-      image: "/photos/pics/wedding (19).jpg",
+      image: "/photos/wedding (19).jpg",
       title: "Wedding Celebration 19",
       description: "Beautiful wedding photography from Accra."
     },
     {
-      image: "/photos/pics/wedding (20).jpg",
+      image: "/photos/wedding (20).jpg",
       title: "Wedding Celebration 20",
       description: "Capturing the magic of a Ghanaian wedding."
     },
     {
-      image: "/photos/pics/wedding (21).jpg",
+      image: "/photos/wedding (21).jpg",
       title: "Wedding Celebration 21",
       description: "Memorable moments from a special day."
     },
     {
-      image: "/photos/pics/wedding (22).jpg",
+      image: "/photos/wedding (22).jpg",
       title: "Wedding Celebration 22",
       description: "Stunning wedding imagery from Ghana."
     },
     {
-      image: "/photos/pics/wedding (23).jpg",
+      image: "/photos/wedding (23).jpg",
       title: "Wedding Celebration 23",
       description: "Celebrating love in Accra, Ghana."
     },
     {
-      image: "/photos/pics/wedding (24).jpg",
+      image: "/photos/wedding (24).jpg",
       title: "Wedding Celebration 24",
       description: "Beautiful moments from a wedding ceremony."
     },
     {
-      image: "/photos/pics/wedding (25).jpg",
+      image: "/photos/wedding (25).jpg",
       title: "Wedding Celebration 25",
       description: "Love stories captured through our lens."
     },
     {
-      image: "/photos/pics/wedding (26).jpg",
+      image: "/photos/wedding (26).jpg",
       title: "Wedding Celebration 26",
       description: "Joyful wedding photography in Ghana."
     },
     {
-      image: "/photos/pics/wedding (27).jpg",
+      image: "/photos/wedding (27).jpg",
       title: "Wedding Celebration 27",
       description: "Timeless memories from an Accra wedding."
     },
     {
-      image: "/photos/pics/wedding (28).jpg",
+      image: "/photos/wedding (28).jpg",
       title: "Wedding Celebration 28",
       description: "Capturing the essence of a perfect day."
     },
     {
-      image: "/photos/pics/wedding (29).jpg",
+      image: "/photos/wedding (29).jpg",
       title: "Wedding Celebration 29",
       description: "Elegant wedding moments in Ghana."
     },
     {
-      image: "/photos/pics/wedding (30).jpg",
+      image: "/photos/wedding (30).jpg",
       title: "Wedding Celebration 30",
       description: "Beautiful celebration captured in Accra."
     },
     {
-      image: "/photos/pics/wedding (31).jpg",
+      image: "/photos/wedding (31).jpg",
       title: "Wedding Celebration 31",
       description: "Love and joy from a Ghanaian wedding."
     },
     {
-      image: "/photos/pics/wedding (32).jpg",
+      image: "/photos/wedding (32).jpg",
       title: "Wedding Celebration 32",
       description: "Stunning photography from a wedding in Ghana."
     },
     {
-      image: "/photos/pics/wedding (33).jpg",
+      image: "/photos/wedding (33).jpg",
       title: "Wedding Celebration 33",
       description: "Capturing precious moments in Accra."
     },
     {
-      image: "/photos/pics/wedding (34).jpg",
+      image: "/photos/wedding (34).jpg",
       title: "Wedding Celebration 34",
       description: "Beautiful wedding day captured perfectly."
     },
     {
-      image: "/photos/pics/wedding (35).jpg",
+      image: "/photos/wedding (35).jpg",
       title: "Wedding Celebration 35",
       description: "Memorable moments from a Ghanaian celebration."
     },
     {
-      image: "/photos/pics/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg",
+      image: "/photos/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg",
       title: "Portfolio Highlight 1",
       description: "Stunning photography from our collection."
     },
     {
-      image: "/photos/pics/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg",
+      image: "/photos/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg",
       title: "Portfolio Highlight 2",
       description: "Professional photography in Ghana."
     },
     {
-      image: "/photos/pics/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg",
+      image: "/photos/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg",
       title: "Portfolio Highlight 3",
       description: "Capturing life's beautiful moments."
     },
     {
-      image: "/photos/pics/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg",
+      image: "/photos/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg",
       title: "Portfolio Highlight 4",
       description: "Creative photography from Accra."
     },
     {
-      image: "/photos/pics/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg",
+      image: "/photos/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg",
       title: "Portfolio Highlight 5",
       description: "Stunning visuals from our portfolio."
     },
     {
-      image: "/photos/pics/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg",
+      image: "/photos/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg",
       title: "Portfolio Highlight 6",
       description: "Professional photography in Ghana."
     },
     {
-      image: "/photos/pics/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg",
+      image: "/photos/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg",
       title: "Portfolio Highlight 7",
       description: "Capturing memorable moments beautifully."
     },
     {
-      image: "/photos/pics/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg",
+      image: "/photos/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg",
       title: "Portfolio Highlight 8",
       description: "Beautiful photography from our collection."
     },
     {
-      image: "/photos/pics/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg",
+      image: "/photos/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg",
       title: "Portfolio Highlight 9",
       description: "Creative imagery from Accra, Ghana."
     },
     {
-      image: "/photos/pics/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg",
+      image: "/photos/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg",
       title: "Portfolio Highlight 10",
       description: "Stunning photography capturing Ghana's beauty."
     },
     {
-      image: "/photos/pics/About me pic1.jpg",
+      image: "/photos/About me pic1.jpg",
       title: "Behind the Lens",
       description: "Meet the photographer behind the camera."
     },
     {
-      image: "/photos/pics/About me pic 2.jpg",
+      image: "/photos/About me pic 2.jpg",
       title: "Our Story",
       description: "Passionate about capturing life's moments."
     },
     {
-      image: "/photos/pics/About me pic 3.jpg",
+      image: "/photos/About me pic 3.jpg",
       title: "Our Vision",
       description: "Creating timeless memories through photography."
     }

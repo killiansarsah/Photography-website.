@@ -7,11 +7,11 @@ export const AboutSection: React.FC = () => {
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
 
   const videos = [
-    '/photos/pics/About me vid.mp4',
-    '/photos/pics/About me vid1.mp4',
-    '/photos/pics/About me vid 2.mp4',
-    '/photos/pics/About me vid 3.mp4',
-    '/photos/pics/About me vid4.mp4'
+    '/photos/About me vid.mp4',
+    '/photos/About me vid1.mp4',
+    '/photos/About me vid 2.mp4',
+    '/photos/About me vid 3.mp4',
+    '/photos/About me vid4.mp4'
   ];
 
   useEffect(() => {

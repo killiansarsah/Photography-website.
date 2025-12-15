@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   const recentShots = [
-    '/photos/573142202_18521162413064431_7013930376258070492_n.jpg',
-    '/photos/574268950_18520435639064431_5613079751690295845_n.jpg',
-    '/photos/574860642_18521477698064431_6311990956506437484_n.jpg',
-    '/photos/581492933_18523745380064431_1405624945537746798_n.jpg',
-    '/photos/583348481_18523718413064431_7614656156371937518_n.jpg',
-    '/photos/589105279_18525889513064431_4208805799178778943_n.jpg'
+    '/photos/recent-1.jpg',
+    '/photos/recent-2.jpg',
+    '/photos/recent-3.jpg',
+    '/photos/recent-4.jpg',
+    '/photos/recent-5.jpg',
+    '/photos/recent-6.jpg'
   ];
 
   const SocialIcon = ({ path, href, label, className }: { path: string, href: string, label: string, className: string }) => (
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
               <img 
-                src="/photos/pics/Logo_darkmode-removebg-preview.png" 
+                src="/photos/Logo_darkmode-removebg-preview.png" 
                 alt="Logo" 
                 className="h-44 w-auto" 
               />

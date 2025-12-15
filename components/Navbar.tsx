@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group" onClick={closeMenu}>
           <img 
-            src="/photos/pics/Logo_darkmode-removebg-preview.png" 
+            src="/photos/Logo_darkmode-removebg-preview.png" 
             alt="Logo" 
             className="h-40 w-auto group-hover:scale-110 transition-transform duration-300"
           />

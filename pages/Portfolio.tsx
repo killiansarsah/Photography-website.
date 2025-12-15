@@ -11,211 +11,211 @@ interface PortfolioItem {
 const portfolioItems: PortfolioItem[] = [
   // Weddings
   { 
-    src: "/photos/pics/wedding.jpg", 
+    src: "/photos/wedding.jpg", 
     title: "Wedding Day 1", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (2).jpg", 
+    src: "/photos/wedding (2).jpg", 
     title: "Wedding Day 2", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (3).jpg", 
+    src: "/photos/wedding (3).jpg", 
     title: "Wedding Day 3", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (4).jpg", 
+    src: "/photos/wedding (4).jpg", 
     title: "Wedding Day 4", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (5).jpg", 
+    src: "/photos/wedding (5).jpg", 
     title: "Wedding Day 5", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (6).jpg", 
+    src: "/photos/wedding (6).jpg", 
     title: "Wedding Day 6", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (7).jpg", 
+    src: "/photos/wedding (7).jpg", 
     title: "Wedding Day 7", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (8).jpg", 
+    src: "/photos/wedding (8).jpg", 
     title: "Wedding Day 8", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (9).jpg", 
+    src: "/photos/wedding (9).jpg", 
     title: "Wedding Day 9", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (10).jpg", 
+    src: "/photos/wedding (10).jpg", 
     title: "Wedding Day 10", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (11).jpg", 
+    src: "/photos/wedding (11).jpg", 
     title: "Wedding Day 11", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (12).jpg", 
+    src: "/photos/wedding (12).jpg", 
     title: "Wedding Day 12", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (13).jpg", 
+    src: "/photos/wedding (13).jpg", 
     title: "Wedding Day 13", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (14).jpg", 
+    src: "/photos/wedding (14).jpg", 
     title: "Wedding Day 14", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (15).jpg", 
+    src: "/photos/wedding (15).jpg", 
     title: "Wedding Day 15", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (16).jpg", 
+    src: "/photos/wedding (16).jpg", 
     title: "Wedding Day 16", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (17).jpg", 
+    src: "/photos/wedding (17).jpg", 
     title: "Wedding Day 17", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (18).jpg", 
+    src: "/photos/wedding (18).jpg", 
     title: "Wedding Day 18", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (19).jpg", 
+    src: "/photos/wedding (19).jpg", 
     title: "Wedding Day 19", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (20).jpg", 
+    src: "/photos/wedding (20).jpg", 
     title: "Wedding Day 20", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (21).jpg", 
+    src: "/photos/wedding (21).jpg", 
     title: "Wedding Day 21", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (22).jpg", 
+    src: "/photos/wedding (22).jpg", 
     title: "Wedding Day 22", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (23).jpg", 
+    src: "/photos/wedding (23).jpg", 
     title: "Wedding Day 23", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (24).jpg", 
+    src: "/photos/wedding (24).jpg", 
     title: "Wedding Day 24", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (25).jpg", 
+    src: "/photos/wedding (25).jpg", 
     title: "Wedding Day 25", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (26).jpg", 
+    src: "/photos/wedding (26).jpg", 
     title: "Wedding Day 26", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (27).jpg", 
+    src: "/photos/wedding (27).jpg", 
     title: "Wedding Day 27", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (28).jpg", 
+    src: "/photos/wedding (28).jpg", 
     title: "Wedding Day 28", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (29).jpg", 
+    src: "/photos/wedding (29).jpg", 
     title: "Wedding Day 29", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (30).jpg", 
+    src: "/photos/wedding (30).jpg", 
     title: "Wedding Day 30", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (31).jpg", 
+    src: "/photos/wedding (31).jpg", 
     title: "Wedding Day 31", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (32).jpg", 
+    src: "/photos/wedding (32).jpg", 
     title: "Wedding Day 32", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (33).jpg", 
+    src: "/photos/wedding (33).jpg", 
     title: "Wedding Day 33", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (34).jpg", 
+    src: "/photos/wedding (34).jpg", 
     title: "Wedding Day 34", 
     category: "Weddings", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/wedding (35).jpg", 
+    src: "/photos/wedding (35).jpg", 
     title: "Wedding Day 35", 
     category: "Weddings", 
     location: "Accra, Ghana" 
@@ -223,37 +223,37 @@ const portfolioItems: PortfolioItem[] = [
 
   // Portraits
   { 
-    src: "/photos/21911498_342948329499477_7260796042436673536_n.jpg", 
+    src: "/photos/portrait-7.jpg", 
     title: "Urban Gaze", 
     category: "Portraits", 
     location: "New York, NY" 
   },
   { 
-    src: "/photos/22708802_1975209246091600_2761247213471399936_n.jpg", 
+    src: "/photos/portrait-8.jpg", 
     title: "Raw Emotion", 
     category: "Portraits", 
     location: "Berlin, Germany" 
   },
   { 
-    src: "/photos/26221746_871648483035118_2595693867936251904_n.jpg", 
+    src: "/photos/portrait-9.jpg", 
     title: "Soft Light", 
     category: "Portraits", 
     location: "Kyoto, Japan" 
   },
   {
-    src: "/photos/28435906_1968749910106754_1599938415124545536_n.jpg",
+    src: "/photos/portrait-10.jpg",
     title: "Studio Gaze",
     category: "Portraits",
     location: "London, UK"
   },
   {
-    src: "/photos/30855317_280619802476602_649281039332330 7008_n.jpg",
+    src: "/photos/portrait-11.jpg",
     title: "Natural Beauty",
     category: "Portraits",
     location: "Los Angeles, CA"
   },
   {
-    src: "/photos/31338784_1980595781951794_732 7000824410800128_n.jpg",
+    src: "/photos/portrait-12.jpg",
     title: "Candid Moment",
     category: "Portraits",
     location: "Miami, FL"
@@ -281,49 +281,49 @@ const portfolioItems: PortfolioItem[] = [
 
   // Editorial
   { 
-    src: "/photos/34276116_1674494362603851_3102116073147727872_n.jpg", 
+    src: "/photos/portrait-13.jpg", 
     title: "Summer Haze", 
     category: "Editorial", 
     location: "Los Angeles, CA" 
   },
   { 
-    src: "/photos/38996680_1102071753275545_4943237666539869497_n.jpg", 
+    src: "/photos/portrait-14.jpg", 
     title: "Wanderlust", 
     category: "Editorial", 
     location: "Marrakech, Morocco" 
   },
   { 
-    src: "/photos/39282870_746561709021150_5843516919132955014_n.jpg", 
+    src: "/photos/portrait-15.jpg", 
     title: "City Lights", 
     category: "Editorial", 
     location: "Tokyo, Japan" 
   },
   { 
-    src: "/photos/41744218_167142780823773_2798181375087016054_n.jpg", 
+    src: "/photos/portrait-16.jpg", 
     title: "Fashion Forward", 
     category: "Editorial", 
     location: "Milan, Italy" 
   },
   { 
-    src: "/photos/46257019_2001597776589512_8524442261915205129_n.jpg", 
+    src: "/photos/portrait-17.jpg", 
     title: "Street Style", 
     category: "Editorial", 
     location: "Paris, France" 
   },
   { 
-    src: "/photos/465125491_18452730619064431_7053234477597070851_n.jpg", 
+    src: "/photos/editorial-1.jpg", 
     title: "Modern Edge", 
     category: "Editorial", 
     location: "New York, NY" 
   },
   { 
-    src: "/photos/465197605_18453321346064431_3579026222851264923_n.jpg", 
+    src: "/photos/editorial-2.jpg", 
     title: "Timeless Elegance", 
     category: "Editorial", 
     location: "London, UK" 
   },
   { 
-    src: "/photos/499588724_1337618990672865_6106910375883547391_n.jpg", 
+    src: "/photos/editorial-3.jpg", 
     title: "Bold Vision", 
     category: "Editorial", 
     location: "Barcelona, Spain" 
@@ -331,77 +331,94 @@ const portfolioItems: PortfolioItem[] = [
 
   // Videos
   { 
-    src: "/photos/pics/vidme.mp4", 
+    src: "/photos/vidme.mp4", 
     title: "With Me - Video 1", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (2).mp4", 
+    src: "/photos/vidme (2).mp4", 
     title: "With Me - Video 2", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (3).mp4", 
+    src: "/photos/vidme (3).mp4", 
     title: "With Me - Video 3", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (4).mp4", 
+    src: "/photos/vidme (4).mp4", 
     title: "With Me - Video 4", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (5).mp4", 
+    src: "/photos/vidme (5).mp4", 
     title: "With Me - Video 5", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (6).mp4", 
+    src: "/photos/vidme (6).mp4", 
     title: "With Me - Video 6", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (7).mp4", 
+    src: "/photos/vidme (7).mp4", 
     title: "With Me - Video 7", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vidme (8).mp4", 
+    src: "/photos/vidme (8).mp4", 
     title: "With Me - Video 8", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/vid me.mp4", 
+    src: "/photos/vid me.mp4", 
     title: "With Me - Video 9", 
     category: "Videos", 
     location: "Accra, Ghana" 
   },
   { 
-    src: "/photos/pics/H.mp4", 
+    src: "/photos/H.mp4", 
     title: "Highlights", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/behind-camera.mp4", 
+    title: "Behind the Camera", 
+    category: "Videos", 
+    location: "Accra, Ghana" 
+  },
+  { 
+    src: "/photos/svetlana-birthday.mp4", 
+    title: "Svetlana's Birthday", 
     category: "Videos", 
     location: "Accra, Ghana" 
   }
 ];
 
 
-const PortfolioItemCard: React.FC<{ item: PortfolioItem; cardIndex: number; onClick: (src: string, index: number) => void }> = ({ item, cardIndex, onClick }) => {
+const PortfolioItemCard: React.FC<{ item: PortfolioItem; cardIndex: number; onClick: (src: string, index: number) => void; allImages?: string[] }> = ({ item, cardIndex, onClick, allImages }) => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const isVideo = item.src.endsWith('.mp4');
-  // For items in the 'All' section, category may be 'All' and not match any in portfolioItems
+  
   let categoryImages: string[] = [];
-  if (item.category && item.category !== 'All') {
+  if (item.category === 'All' && allImages) {
+    // For 'All' section, use all available images
+    categoryImages = allImages;
+  } else if (item.category && item.category !== 'All') {
+    // For specific categories, use images from that category
     categoryImages = portfolioItems.filter(p => p.category === item.category).map(p => p.src);
   }
+  
   // If no category images, just use the item itself
   if (categoryImages.length === 0) {
     categoryImages = [item.src];
@@ -465,54 +482,54 @@ export const PortfolioSection: React.FC = () => {
   const categories = ['All', 'Weddings', 'Portraits', 'Landscapes', 'Editorial', 'Videos'];
 
   const heroImages = [
-    '/photos/pics/wedding.jpg',
-    '/photos/pics/wedding (2).jpg',
-    '/photos/pics/wedding (3).jpg',
-    '/photos/pics/wedding (4).jpg',
-    '/photos/pics/wedding (5).jpg',
-    '/photos/pics/wedding (6).jpg',
-    '/photos/pics/wedding (7).jpg',
-    '/photos/pics/wedding (8).jpg',
-    '/photos/pics/wedding (9).jpg',
-    '/photos/pics/wedding (10).jpg',
-    '/photos/pics/wedding (11).jpg',
-    '/photos/pics/wedding (12).jpg',
-    '/photos/pics/wedding (13).jpg',
-    '/photos/pics/wedding (14).jpg',
-    '/photos/pics/wedding (15).jpg',
-    '/photos/pics/wedding (16).jpg',
-    '/photos/pics/wedding (17).jpg',
-    '/photos/pics/wedding (18).jpg',
-    '/photos/pics/wedding (19).jpg',
-    '/photos/pics/wedding (20).jpg',
-    '/photos/pics/wedding (21).jpg',
-    '/photos/pics/wedding (22).jpg',
-    '/photos/pics/wedding (23).jpg',
-    '/photos/pics/wedding (24).jpg',
-    '/photos/pics/wedding (25).jpg',
-    '/photos/pics/wedding (26).jpg',
-    '/photos/pics/wedding (27).jpg',
-    '/photos/pics/wedding (28).jpg',
-    '/photos/pics/wedding (29).jpg',
-    '/photos/pics/wedding (30).jpg',
-    '/photos/pics/wedding (31).jpg',
-    '/photos/pics/wedding (32).jpg',
-    '/photos/pics/wedding (33).jpg',
-    '/photos/pics/wedding (34).jpg',
-    '/photos/pics/wedding (35).jpg',
-    '/photos/pics/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg',
-    '/photos/pics/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg',
-    '/photos/pics/About me pic1.jpg',
-    '/photos/pics/About me pic 2.jpg',
-    '/photos/pics/About me pic 3.jpg'
+    '/photos/wedding.jpg',
+    '/photos/wedding (2).jpg',
+    '/photos/wedding (3).jpg',
+    '/photos/wedding (4).jpg',
+    '/photos/wedding (5).jpg',
+    '/photos/wedding (6).jpg',
+    '/photos/wedding (7).jpg',
+    '/photos/wedding (8).jpg',
+    '/photos/wedding (9).jpg',
+    '/photos/wedding (10).jpg',
+    '/photos/wedding (11).jpg',
+    '/photos/wedding (12).jpg',
+    '/photos/wedding (13).jpg',
+    '/photos/wedding (14).jpg',
+    '/photos/wedding (15).jpg',
+    '/photos/wedding (16).jpg',
+    '/photos/wedding (17).jpg',
+    '/photos/wedding (18).jpg',
+    '/photos/wedding (19).jpg',
+    '/photos/wedding (20).jpg',
+    '/photos/wedding (21).jpg',
+    '/photos/wedding (22).jpg',
+    '/photos/wedding (23).jpg',
+    '/photos/wedding (24).jpg',
+    '/photos/wedding (25).jpg',
+    '/photos/wedding (26).jpg',
+    '/photos/wedding (27).jpg',
+    '/photos/wedding (28).jpg',
+    '/photos/wedding (29).jpg',
+    '/photos/wedding (30).jpg',
+    '/photos/wedding (31).jpg',
+    '/photos/wedding (32).jpg',
+    '/photos/wedding (33).jpg',
+    '/photos/wedding (34).jpg',
+    '/photos/wedding (35).jpg',
+    '/photos/photomemoirgh_1561624860_2075382211164899695_2093432430.jpg',
+    '/photos/photomemoirgh_1561624860_2075382211173331408_2093432430.jpg',
+    '/photos/photomemoirgh_1561624860_2075382211181654694_2093432430.jpg',
+    '/photos/photomemoirgh_1570375656_2148789206576000474_2093432430.jpg',
+    '/photos/photomemoirgh_1575124440_2188624894246712877_2093432430.jpg',
+    '/photos/photomemoirgh_1575124440_2188624894263432094_2093432430.jpg',
+    '/photos/photomemoirgh_1593950080_2346545806752168484_2093432430.jpg',
+    '/photos/photomemoirgh_1603186995_2424030670354895176_2093432430.jpg',
+    '/photos/photomemoirgh_1605515428_2443562983346175449_2093432430.jpg',
+    '/photos/photomemoirgh_1614550697_2519356311198761329_2093432430.jpg',
+    '/photos/About me pic1.jpg',
+    '/photos/About me pic 2.jpg',
+    '/photos/About me pic 3.jpg'
   ];
 
   // Rotate hero images
@@ -529,143 +546,55 @@ export const PortfolioSection: React.FC = () => {
   }, [activeCategory]);
 
 
-  // For 'All', show all images (not videos) from /photos and /photos/pics
+  // For 'All', show all images from the consolidated /photos folder
   function getAllImageItems() {
-    // List of all image files in /photos
-    const photosImages = [
-      // Images in /photos (add more if needed)
-      "125315600_190947309252837_6356785943814263834_n.jpg",
-      "137244438_311260563646844_475495877256435118_n.jpg",
-      "138647075_254942869485641_4839333414294414833_n.jpg",
-      "139333885_416628026458645_214721068006800413_n.jpg",
-      "153732537_844126706136199_6717021926166769235_n.jpg",
-      "166327545_451401502755245_8158985191907428693_n.jpg",
-      "21911498_342948329499477_7260796042436673536_n.jpg",
-      "22708802_1975209246091600_2761247213471399936_n.jpg",
-      "26221746_871648483035118_2595693867936251904_n.jpg",
-      "28435906_1968749910106754_1599938415124545536_n.jpg",
-      "30855317_280619802476602_6492810393323307008_n.jpg",
-      "31338784_1980595781951794_7327000824410800128_n.jpg",
-      "34276116_1674494362603851_3102116073147727872_n.jpg",
-      "38996680_1102071753275545_4943237666539869497_n.jpg",
-      "39282870_746561709021150_5843516919132955014_n.jpg",
-      "41744218_167142780823773_2798181375087016054_n.jpg",
-      "46257019_2001597776589512_8524442261915205129_n.jpg",
-      "465125491_18452730619064431_7053234477597070851_n.jpg",
-      "465197605_18453321346064431_3579026222851264923_n.jpg",
-      "499588724_1337618990672865_6106910375883547391_n.jpg",
-      "50028331_316277239236058_1415490142616402361_n.jpg",
-      "504011555_18492942535064431_9051936999354468926_n.jpg",
-      "51043010_565957363900901_7454095722745839401_n.jpg",
-      "51300813_123368658723720_4695760490657864995_n.jpg",
-      "51402502_247382142867979_7191034204245445227_n.jpg",
-      "51974167_2030796656968145_8074698530360666912_n.jpg",
-      "52323916_2053753744694088_2224933505481456463_n.jpg",
-      "573142202_18521162413064431_7013930376258070492_n.jpg",
-      "574268950_18520435639064431_5613079751690295845_n.jpg",
-      "574860642_18521477698064431_6311990956506437484_n.jpg",
-      "581492933_18523745380064431_1405624945537746798_n.jpg",
-      "583348481_18523718413064431_7614656156371937518_n.jpg",
-      "589105279_18525889513064431_4208805799178778943_n.jpg",
-      "72475006_152770072602632_1931789919559214717_n.jpg",
-      "77041937_2745195528835584_6869950986665633897_n.jpg",
+    const allImages = [
+      // Wedding photos (all 36 wedding images)
+      "wedding.jpg", "wedding (2).jpg", "wedding (3).jpg", "wedding (4).jpg", "wedding (5).jpg",
+      "wedding (6).jpg", "wedding (7).jpg", "wedding (8).jpg", "wedding (9).jpg", "wedding (10).jpg",
+      "wedding (11).jpg", "wedding (12).jpg", "wedding (13).jpg", "wedding (14).jpg", "wedding (15).jpg",
+      "wedding (16).jpg", "wedding (17).jpg", "wedding (18).jpg", "wedding (19).jpg", "wedding (20).jpg",
+      "wedding (21).jpg", "wedding (22).jpg", "wedding (23).jpg", "wedding (24).jpg", "wedding (25).jpg",
+      "wedding (26).jpg", "wedding (27).jpg", "wedding (28).jpg", "wedding (29).jpg", "wedding (30).jpg",
+      "wedding (31).jpg", "wedding (32).jpg", "wedding (33).jpg", "wedding (34).jpg", "wedding (35).jpg",
+      // About me photos
+      "About me pic1.jpg", "About me pic 2.jpg", "About me pic 3.jpg",
+      // Portrait photos (renamed from numbered files)
+      "portrait-1.jpg", "portrait-2.jpg", "portrait-3.jpg", "portrait-4.jpg", "portrait-5.jpg",
+      "portrait-6.jpg", "portrait-7.jpg", "portrait-8.jpg", "portrait-9.jpg", "portrait-10.jpg",
+      "portrait-11.jpg", "portrait-12.jpg", "portrait-13.jpg", "portrait-14.jpg", "portrait-15.jpg",
+      "portrait-16.jpg", "portrait-17.jpg", "portrait-18.jpg", "portrait-19.jpg", "portrait-20.jpg",
+      "portrait-21.jpg", "portrait-22.jpg", "portrait-23.jpg", "portrait-24.jpg", "portrait-25.jpg",
+      // Editorial photos
+      "editorial-1.jpg", "editorial-2.jpg", "editorial-3.jpg", "editorial-4.jpg",
+      // Recent photos
+      "recent-1.jpg", "recent-2.jpg", "recent-3.jpg", "recent-4.jpg", "recent-5.jpg", "recent-6.jpg",
+      // Unsplash photos
       "alekon-pictures-yj4kwA4h_Ms-unsplash.jpg",
       "antoine-demare-qstSVTp6OrM-unsplash.jpg",
-      "christian-diaz-Tg_Du1s-WU0-unsplash.jpg"
+      "christian-diaz-Tg_Du1s-WU0-unsplash.jpg",
+      // Logo files
+      "Logo darkmode.jpg",
+      "logo lightmode.jpg",
+      "Logo_darkmode-removebg-preview.png",
+      "Logo.jpg",
+      // Gallery photos (renamed from photomemoirgh files)
+      "gallery-1.jpg", "gallery-2.jpg", "gallery-3.jpg", "gallery-4.jpg", "gallery-5.jpg",
+      "gallery-6.jpg", "gallery-7.jpg", "gallery-8.jpg", "gallery-9.jpg", "gallery-10.jpg",
+      "gallery-11.jpg", "gallery-12.jpg", "gallery-13.jpg", "gallery-14.jpg", "gallery-15.jpg",
+      "gallery-16.jpg", "gallery-17.jpg", "gallery-18.jpg", "gallery-19.jpg", "gallery-20.jpg",
+      "gallery-21.jpg", "gallery-22.jpg", "gallery-23.jpg", "gallery-24.jpg", "gallery-25.jpg",
+      "gallery-26.jpg", "gallery-27.jpg", "gallery-28.jpg", "gallery-29.jpg", "gallery-30.jpg",
+      "gallery-31.jpg", "gallery-32.jpg", "gallery-33.jpg", "gallery-34.jpg", "gallery-35.jpg",
+      "gallery-36.jpg", "gallery-37.jpg", "gallery-38.jpg", "gallery-39.jpg", "gallery-40.jpg",
+      "gallery-41.jpg", "gallery-42.jpg"
     ];
-    // List of all image files in /photos/pics
-    const picsImages = [
-      "About me pic 2.jpg",
-      "About me pic 3.jpg",
-      "About me pic1.jpg",
-      "photomemoirgh_1561624860_2075382211164899695_2093432430.jpg",
-      "photomemoirgh_1561624860_2075382211173331408_2093432430.jpg",
-      "photomemoirgh_1561624860_2075382211181654694_2093432430.jpg",
-      "photomemoirgh_1570375656_2148789206576000474_2093432430.jpg",
-      "photomemoirgh_1575124440_2188624894246712877_2093432430.jpg",
-      "photomemoirgh_1575124440_2188624894263432094_2093432430.jpg",
-      "photomemoirgh_1593950080_2346545806752168484_2093432430.jpg",
-      "photomemoirgh_1603186995_2424030670354895176_2093432430.jpg",
-      "photomemoirgh_1605515428_2443562983346175449_2093432430.jpg",
-      "photomemoirgh_1614550697_2519356311198761329_2093432430.jpg",
-      "photomemoirgh_1723028590_3429334832751787330_2093432430.jpg",
-      "photomemoirgh_1723648007_3434530878071163825_2093432430.jpg",
-      "photomemoirgh_1723648007_3434530878079630106_2093432430.jpg",
-      "photomemoirgh_1730704758_3493727192197109176_2093432430.jpg",
-      "photomemoirgh_1730704758_3493727192197144027_2093432430.jpg",
-      "photomemoirgh_1730704758_3493727192197295561_2093432430.jpg",
-      "photomemoirgh_1749302690_3649737954345764499_2093432430.jpg",
-      "photomemoirgh_1749302690_3649737954345838925_2093432430.jpg",
-      "photomemoirgh_1749302690_3649737954345863493_2093432430.jpg",
-      "photomemoirgh_1749302690_3649737954354043681_2093432430.jpg",
-      "photomemoirgh_1749302690_3649737954354120729_2093432430.jpg",
-      "photomemoirgh_1749302690_3649737954656140106_2093432430.jpg",
-      "photomemoirgh_1762155452_3757554740180323494_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789575425800_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789583790607_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789592151735_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789592199585_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789600544109_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789600555289_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789600576261_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789608926839_2093432430.jpg",
-      "photomemoirgh_1762180015_3757760789860583480_2093432430.jpg",
-      "photomemoirgh_1762247148_3758323939823598739_2093432430.jpg",
-      "photomemoirgh_1762503404_3760473571819285594_2093432430.jpg",
-      "photomemoirgh_1762503404_3760473571819300748_2093432430.jpg",
-      "photomemoirgh_1762503404_3760473571827655861_2093432430.jpg",
-      "photomemoirgh_1762503404_3760473572129645607_2093432430.jpg",
-      "photomemoirgh_1763095710_3765442194493146751_2093432430.jpg",
-      "photomemoirgh_1763095710_3765442194518328999_2093432430.jpg",
-      "photomemoirgh_1763364900_3767700322882446502_2093432430.jpg",
-      "photomemoirgh_1763382545_3767848344400438982_2093432430.jpg",
-      "photomemoirgh_1764662596_3778586189721254146_2093432430.jpg",
-      "wedding (10).jpg",
-      "wedding (11).jpg",
-      "wedding (12).jpg",
-      "wedding (13).jpg",
-      "wedding (14).jpg",
-      "wedding (15).jpg",
-      "wedding (16).jpg",
-      "wedding (17).jpg",
-      "wedding (18).jpg",
-      "wedding (19).jpg",
-      "wedding (2).jpg",
-      "wedding (20).jpg",
-      "wedding (21).jpg",
-      "wedding (22).jpg",
-      "wedding (23).jpg",
-      "wedding (24).jpg",
-      "wedding (25).jpg",
-      "wedding (26).jpg",
-      "wedding (27).jpg",
-      "wedding (28).jpg",
-      "wedding (29).jpg",
-      "wedding (3).jpg",
-      "wedding (30).jpg",
-      "wedding (31).jpg",
-      "wedding (32).jpg",
-      "wedding (33).jpg",
-      "wedding (34).jpg",
-      "wedding (35).jpg",
-      "wedding (4).jpg",
-      "wedding (5).jpg",
-      "wedding (6).jpg",
-      "wedding (7).jpg",
-      "wedding (8).jpg",
-      "wedding (9).jpg",
-      "wedding.jpg"
-    ];
-    // Combine and return as PortfolioItem[]
-    return [
-      ...photosImages.map(f => ({ src: `/photos/${f}`, title: f, category: 'All', location: '' })),
-      ...picsImages.map(f => ({ src: `/photos/pics/${f}`, title: f, category: 'All', location: '' }))
-    ];
+    return allImages.map(f => ({ src: `/photos/${f}`, title: f, category: 'All', location: 'Ghana' }));
   }
 
   const filteredItems = activeCategory === 'All'
     ? getAllImageItems()
-    : portfolioItems.filter(item => item.category === activeCategory && !item.src.endsWith('.mp4'));
+    : portfolioItems.filter(item => item.category === activeCategory);
 
   const displayedItems = filteredItems.slice(0, visibleCount);
   const hasMore = visibleCount < filteredItems.length;
@@ -746,7 +675,13 @@ export const PortfolioSection: React.FC = () => {
 
           <div className="masonry-grid w-full animate-fade-in">
             {displayedItems.map((item, index) => (
-              <PortfolioItemCard key={`${item.title}-${index}`} item={item} cardIndex={index} onClick={handleImageClick} />
+              <PortfolioItemCard 
+                key={`${item.title}-${index}`} 
+                item={item} 
+                cardIndex={index} 
+                onClick={handleImageClick}
+                allImages={activeCategory === 'All' ? getAllImageItems().map(i => i.src) : undefined}
+              />
             ))}
           </div>
 
