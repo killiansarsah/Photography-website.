@@ -6,6 +6,7 @@ import { ServicesSection } from './Services';
 import { AboutSection } from './About';
 import { ContactSection } from './Contact';
 import { getAssetPath } from '../utils/paths';
+import LazyVideo from '../components/LazyVideo';
 
 const Home: React.FC = () => {
   const navigate = useNavigate();
@@ -272,16 +273,15 @@ const Home: React.FC = () => {
         )}
 
         <div className="absolute inset-0 z-0">
-          <video 
-            autoPlay 
-            loop 
-            muted 
-            playsInline
+          <LazyVideo
+            src={getAssetPath("/photos/real-vid.mp4")}
             className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
             onLoadedData={() => setIsHeroLoaded(true)}
-          >
-            <source src={getAssetPath("/photos/real-vid.mp4")} type="video/mp4" />
-          </video>
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-[#111c21]/70 via-[#111c21]/50 to-[#111c21]"></div>
         </div>
         <div className="relative z-10 container mx-auto px-4 text-center max-w-4xl">

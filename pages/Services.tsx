@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAssetPath } from '../utils/paths';
+import LazyImage from '../components/LazyImage';
 
 export const ServicesSection: React.FC = () => {
   const navigate = useNavigate();
@@ -10,10 +11,10 @@ export const ServicesSection: React.FC = () => {
       {/* Hero */}
       <section className="relative flex min-h-[60vh] flex-col items-center justify-center px-4 py-16 text-center lg:py-24">
         <div className="absolute inset-0 z-0 overflow-hidden">
-          <img 
-            alt="Photographer holding camera" 
-            className="h-full w-full object-cover opacity-40 dark:opacity-30" 
+          <LazyImage
             src={getAssetPath("/photos/portrait-19.jpg")}
+            alt="Photographer holding camera"
+            className="h-full w-full object-cover opacity-40 dark:opacity-30"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background-light dark:from-background-dark via-transparent to-transparent"></div>
         </div>

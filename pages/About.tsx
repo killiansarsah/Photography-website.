@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { getAssetPath } from '../utils/paths';
+import LazyVideo from '../components/LazyVideo';
 
 export const AboutSection: React.FC = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
@@ -50,9 +51,9 @@ export const AboutSection: React.FC = () => {
         <div className="max-w-[1280px] w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative order-2 lg:order-1 w-full max-w-md mx-auto lg:mx-0 aspect-[4/5]">
             {videos.map((videoSrc, index) => (
-              <video 
+              <LazyVideo
                 key={index}
-                ref={(el) => (videoRefs.current[index] = el)}
+                src={videoSrc}
                 className={`absolute inset-0 w-full h-full object-cover rounded-xl shadow-2xl transition-opacity duration-[5000ms] ease-in-out ${
                   index === currentVideoIndex 
                     ? 'opacity-100 z-20' 
@@ -61,12 +62,9 @@ export const AboutSection: React.FC = () => {
                     : 'opacity-0 z-0'
                 }`}
                 autoPlay={index === 0}
-                muted 
+                muted
                 playsInline
-              >
-                <source src={videoSrc} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+              />
             ))}
           </div>
           <div className="flex flex-col gap-6 order-1 lg:order-2">

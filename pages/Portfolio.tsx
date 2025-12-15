@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { getAssetPath } from '../utils/paths';
+import LazyImage from '../components/LazyImage';
+import LazyVideo from '../components/LazyVideo';
 
 interface PortfolioItem {
   src: string;
@@ -440,11 +442,11 @@ const PortfolioItemCard: React.FC<{ item: PortfolioItem; cardIndex: number; onCl
         <div className="w-full h-[300px] bg-slate-200 dark:bg-surface-dark animate-pulse rounded-lg" />
       )}
       {isCurrentVideo ? (
-        <video 
+        <LazyVideo
+          src={currentImage}
           className={`w-full h-auto object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-75 ${
             isLoaded ? 'opacity-100' : 'opacity-0 absolute top-0 left-0 h-0'
           }`}
-          src={currentImage}
           autoPlay
           loop
           muted
@@ -452,13 +454,12 @@ const PortfolioItemCard: React.FC<{ item: PortfolioItem; cardIndex: number; onCl
           onLoadedData={() => setIsLoaded(true)}
         />
       ) : (
-        <img 
-          alt={item.title} 
+        <LazyImage
+          src={currentImage}
+          alt={item.title}
           className={`w-full h-auto object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-75 ${
             isLoaded ? 'opacity-100' : 'opacity-0 absolute top-0 left-0 h-0'
           }`}
-          src={currentImage}
-          loading="lazy"
           onLoad={() => setIsLoaded(true)}
         />
       )}

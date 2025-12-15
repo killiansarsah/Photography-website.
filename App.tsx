@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio';
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import ImagePreloader from './components/ImagePreloader';
 
 // ScrollToTop component to ensure navigation feels like a real page load
 const ScrollToTop = () => {
@@ -23,6 +24,7 @@ const App: React.FC = () => {
   return (
     <HashRouter>
       <ScrollToTop />
+      <ImagePreloader />
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
